@@ -1,5 +1,5 @@
-## SIMPle SCHEDuler
-# What is this?
+# SIMPle SCHEDuler
+## What is this?
 A lightweight header-only FCFS scheduler with priority for ARM mcus for event driven applications
 ## Features
 - Priority driven scheduler
