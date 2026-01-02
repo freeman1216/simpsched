@@ -43,7 +43,7 @@ user_task_reg(user_task,
 
             case SCH_NO_TASKS_POSTED:{
                 __dmb();
-                __wfi();
+                __wfe();
                 break;
             }
         }
