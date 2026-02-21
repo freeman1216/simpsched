@@ -42,13 +42,8 @@ user_task_reg(user_task,
             }
 
             case SCH_NO_TASKS_POSTED:{
-<<<<<<< HEAD
-                __dmb();
-                __wfe();
-=======
                 __dsb();
                 __wfi();
->>>>>>> f92488d (fix : why did wrote dmb there am i dumb?)
                 break;
             }
         }
