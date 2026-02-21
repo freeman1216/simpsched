@@ -131,7 +131,7 @@ int __attribute__((noinline)) main(){
             }
 
             case SCH_NO_TASKS_POSTED:{
-                __dmb();
+                __dsb();
                 __wfe();
                 break;
             }

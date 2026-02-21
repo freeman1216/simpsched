@@ -92,6 +92,10 @@ static inline __attribute__((always_inline)) void __clrex(){
     __asm__ volatile ("clrex":::"memory");
 }
 
+static inline __attribute__((always_inline)) void __dsb(){
+    __asm__ volatile("dsb":::"memory");
+}
+
 static inline __attribute__((always_inline)) void __dmb(){
     __asm__ volatile("dmb":::"memory");
 }
