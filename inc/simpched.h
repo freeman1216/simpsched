@@ -117,7 +117,7 @@ typedef struct{
     const void* static_params;
     uint32_t queue_len;
     volatile uint32_t head;
-    uint32_t tail;
+    volatile uint32_t tail;
 }task_ctrl_t;
 
 static task_ctrl_t internal_task_table [USER_TASK_MAX];
